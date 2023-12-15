@@ -5,56 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milos Portfolio</title>
-    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style1.css">
     <script src="https://kit.fontawesome.com/d5ae65245c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Header -->
+
+
     <header class="header">
         <div class="logo">
-            <a href="#logo" class="logo">Milos</a>
-            <p>Web Developer</p>
-            <i class="fa-solid fa-bars icon"></i>
+            <div>
+                <a href="#logo" class="logo-icon">Milos</a>
+            </div>
+            <p>Frontend Developer</p>
+            <div>
+                <i class="fa-solid fa-bars icon"></i>
+            </div>
         </div>
 
         <nav class="navbar">
             <a href="#home">Home</a>
-            <!-- <a href="#project-img">Projects</a> -->
             <a href="#skills">Skills</a>
             <a href="#about-me">About me</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
+
+    <!-- Home section-->
     <main>
         <section id="home" class="home">
             <div class="home-content">
                 <h1>Hi, I'm <br><span> Milos Mirkovic</span></h1>
                 <div class="text-animate">
-                    <h3>Web Developer</h3>
+                    <h2>Frontend Developer</h2>
                 </div>
                 <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat commodi quo facilis, tempora ea aliquam
                 dignissimos nulla, non iste eveniet odio atque excepturi neque harum, minus veniam impedit? Architecto,
                 soluta?</p> -->
             </div>
+            <div class="project-img">
+                <div class="project-card project-card1">
+                    <a href="https://www.google.com/" target="_blank">
+                        <img src="./images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="project-card project-card2">
+                    <a href="https://www.google.com/" target="_blank">
+                        <img src="./images/Screenshot 2023-12-07 at 00-31-11 Speaker Shop.png" alt="">
+                    </a>
+                </div>
+                <div class="project-card project-card3">
+                    <a href="https://www.google.com/" target="_blank">
+                        <img src="./images/anete-lusina-zwsHjakE_iI-unsplash.jpg" alt="">
+                    </a>
+                </div>
+            </div>
         </section>
-        <section class="project-img" id="project-img">
 
-            <div class="project-card project-card1">
-                <div>
-                    <h4>Sound Shop- Web page</h4>
-                </div>
-            </div>
-            <div class="project-card project-card2">
-                <div>
-                    <h4>Portfolio</h4>
-                </div>
-            </div>
-            <div class="project-card project-card3">
-                <div>
-                    <h4>HTML & CSS</h4>
-                </div>
-            </div>
-        </section>
         <section class="skills" id="skills">
             <h3>My <span>Skills</span></h3>
             <div class="skills-img">
@@ -118,12 +126,12 @@
                                     <span class="focus"></span>
                                 </div>
                             </div>
-                            <div class="input-box">
+                            <!-- <div class="input-box">
                                 <div class="input-field">
                                     <input type="text" placeholder="Email Subject" required>
                                     <span class="focus"></span>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="textarea-field">
                                 <textarea name="" id="" cols="10" rows="5" placeholder="Your Message"
                                     required></textarea>
@@ -150,15 +158,26 @@
                         <p>Address : Leipziger str. 18-20, 68775 Ketsch</p>
                     </div>
 
-                    <i class="fa-brands fa-linkedin icons-contact"></i>
-                    <i class="fa-brands fa-github icons-contact"></i>
+
+                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                        <i class="fa-brands fa-linkedin icons-contact"></i>
+                    </a>
+                    <a href="https://github.com/dashboard" target="_blank"><i class="fa-brands fa-github icons-contact"></i>
+                    </a>
+
+
                 </div>
             </div>
         </section>
-
     </main>
     <footer>
-        <h4>Copyright@ Milos Mirkovic 2023</h4>
+        <div>
+            <p>Version 1.0</p>
+        </div>
+        <div class="privacy">
+            <p>Terms</p>
+            <p>Privacy</p>
+        </div>
     </footer>
 </body>
 
